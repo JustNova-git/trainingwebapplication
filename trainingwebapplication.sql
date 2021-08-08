@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июл 05 2021 г., 16:21
+-- Время создания: Авг 08 2021 г., 20:38
 -- Версия сервера: 8.0.19
 -- Версия PHP: 7.1.33
 
@@ -157,8 +157,7 @@ INSERT INTO `resulttest` (`id`, `id_user`, `id_test`, `result`) VALUES
 (66, 32, 18, 1),
 (67, 32, 12, 1),
 (68, 32, 16, 1),
-(70, 33, 1, 1),
-(74, 32, 1, 1);
+(70, 33, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -218,16 +217,16 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `login`, `password`, `name`, `surname`, `opic`, `city`, `groups`, `datereg`, `ip`, `avatars`, `activation`, `buildmy`, `email`, `activing`, `online`) VALUES
-(6, 'User1', '$2y$10$blLyh6nSfp5IEgEZfm4Vh.uT92y4GTTTlMt/Vpfmc0ZuPqKaHb97K', 'User1', NULL, NULL, NULL, 6, '2021-05-31, 19:23:00', '127.0.0.1', 1, '0', 0, 'cdrffwffsss47@gmail.com', 'Дизайнер', 0),
-(7, 'Николай', '$2y$10$Nq2xVXMyMVgy/qSh5rXZ/eGqE7Im4C85BJt7oQ1f/mRCs5hIu0KKW', 'asd', NULL, NULL, NULL, 5, '2021-05-31, 19:24:11', '127.0.0.1', 13, '0', 0, 'asd@mail.ru', 'Верстальщик', 0),
-(8, 'Валентин', '$2y$10$.rXRK1IAAzXAdi80AY6aqe0k5122K.ukVekCsjLNW9CHOqpn6YHyC', 'student', NULL, NULL, NULL, 5, '2021-05-31, 19:25:20', '127.0.0.1', 7, '0', 0, 'cdrffwffsss47@gmail.com', 'Программист', 0),
-(31, 'Танзиля', '$2y$10$/WwgsPxf3MpxclgeZ96UlOfhEHY6mJOV9z6st9C85KXPKistY.5ji', 'Танзиля', NULL, NULL, NULL, 6, '2021-06-16, 11:51:49', '127.0.0.1', 4, NULL, 0, 'rudiktr891105@gmail.com', 'бухгалтер', NULL),
-(32, 'Nova', '$2y$10$wEFPbNaE3en0nk2q.j/EBeko9w01szF8JW67TxvaW4Wd/uWNHuUje', 'Вадим', 'Галимов', 'гыы', NULL, 1, '2021-06-16, 11:54:01', '127.0.0.1', 11, NULL, 0, 'black2016white@mail.ru', 'Web-developer', NULL),
-(33, 'admin', '$2y$10$pB8P/KgnFXo6J6WjM19fS.r7HZvLdRqJqF2yxHRFfc8siBlowpi7G', 'тип', 'главный', NULL, NULL, 6, '2021-06-23, 02:16:03', '127.0.0.1', 6, NULL, 0, 'black2016white@mail.ru', 'Администратор', NULL),
-(34, '123', '$2y$10$GUSBaRjUHAHiHqdKl6uDAOwrnTQvPMHGCUo.THn623q3jSOEBq3W2', '123', NULL, NULL, NULL, 6, '2021-06-28, 01:22:24', '127.0.0.1', 4, NULL, 0, 'asd@mail.ru', '123', NULL),
-(35, 'Billy Herrington', '$2y$10$D4g0JUzKN5MFYv4.du7Zqe5DxOh.J/HQdv8GpoxpipCNwMs/55QIS', 'Billy Herrington', NULL, NULL, NULL, 6, '2021-06-30, 22:46:20', '127.0.0.1', 15, NULL, 0, 'BillyHerrington@mail.ru', 'Master', NULL),
-(43, 'tester', '$2y$10$S9cjS7bhwYpcvBL4rnpzF.WXwKh7/AhX6Q5XRwqxsHb2vdcSnftRC', 'Владимир', 'Владимирович', NULL, 'Челяба', 6, '2021-07-02, 22:55:42', '127.0.0.1', 1, NULL, 0, 'asd@mail.ru', 'тестер', NULL),
-(44, 'clown', '$2y$10$KHJldCSCBq6LHLEpjy9.ru8qFC3xAsOA6sSrNxR9AqiYGF2U8SlFG', 'dead', 'inside', NULL, 'Челяба', 6, '2021-07-02, 23:11:16', '127.0.0.1', 13, NULL, 0, 'zxc@mail.ru', 'фыв', NULL),
+(6, 'User1', '$2y$10$blLyh6nSfp5IEgEZfm4Vh.uT92y4GTTTlMt/Vpfmc0ZuPqKaHb97K', 'User1', NULL, 'Придумай мне новое имя', NULL, 6, '2021-05-31, 19:23:00', '127.0.0.1', 1, '0', 0, 'cdrffwffsss47@gmail.com', 'Дизайнер', 0),
+(7, 'Николай', '$2y$10$Nq2xVXMyMVgy/qSh5rXZ/eGqE7Im4C85BJt7oQ1f/mRCs5hIu0KKW', 'asd', NULL, 'Коля Коля Николай', NULL, 5, '2021-05-31, 19:24:11', '127.0.0.1', 13, '0', 0, 'asd@mail.ru', 'Верстальщик', 0),
+(8, 'Валентин', '$2y$10$.rXRK1IAAzXAdi80AY6aqe0k5122K.ukVekCsjLNW9CHOqpn6YHyC', 'student', NULL, 'Привет, я Валентин', NULL, 5, '2021-05-31, 19:25:20', '127.0.0.1', 7, '0', 0, 'cdrffwffsss47@gmail.com', 'Программист', 0),
+(31, 'Танзиля', '$2y$10$/WwgsPxf3MpxclgeZ96UlOfhEHY6mJOV9z6st9C85KXPKistY.5ji', 'Танзиля', NULL, 'Бухгалтер', NULL, 6, '2021-06-16, 11:51:49', '127.0.0.1', 4, NULL, 0, 'rudiktr891105@gmail.com', 'бухгалтер', NULL),
+(32, 'Nova', '$2y$10$wEFPbNaE3en0nk2q.j/EBeko9w01szF8JW67TxvaW4Wd/uWNHuUje', 'Вадим', 'Галимов', 'main', NULL, 1, '2021-06-16, 11:54:01', '127.0.0.1', 11, NULL, 0, 'black2016white@mail.ru', 'Web-developer', NULL),
+(33, 'admin', '$2y$10$pB8P/KgnFXo6J6WjM19fS.r7HZvLdRqJqF2yxHRFfc8siBlowpi7G', 'тип', 'главный', 'тот самый ;)', NULL, 6, '2021-06-23, 02:16:03', '127.0.0.1', 6, NULL, 0, 'black2016white@mail.ru', 'Администратор', NULL),
+(34, '123', '$2y$10$GUSBaRjUHAHiHqdKl6uDAOwrnTQvPMHGCUo.THn623q3jSOEBq3W2', '123', NULL, 'Первое, что пришло в голову', NULL, 6, '2021-06-28, 01:22:24', '127.0.0.1', 4, NULL, 0, 'asd@mail.ru', '123', NULL),
+(35, 'Billy Herrington', '$2y$10$D4g0JUzKN5MFYv4.du7Zqe5DxOh.J/HQdv8GpoxpipCNwMs/55QIS', 'Billy Herrington', NULL, 'press F to respect', NULL, 6, '2021-06-30, 22:46:20', '127.0.0.1', 15, NULL, 0, 'BillyHerrington@mail.ru', 'Master', NULL),
+(43, 'tester', '$2y$10$S9cjS7bhwYpcvBL4rnpzF.WXwKh7/AhX6Q5XRwqxsHb2vdcSnftRC', 'Владимир', 'Владимирович', 'чёртов зануда', 'Челяба', 6, '2021-07-02, 22:55:42', '127.0.0.1', 1, NULL, 0, 'asd@mail.ru', 'тестер', NULL),
+(44, 'clown', '$2y$10$KHJldCSCBq6LHLEpjy9.ru8qFC3xAsOA6sSrNxR9AqiYGF2U8SlFG', 'dead', 'inside', 'имя говорит само за себя', 'Челяба', 6, '2021-07-02, 23:11:16', '127.0.0.1', 13, NULL, 0, 'zxc@mail.ru', 'фыв', NULL),
 (45, '........', '$2y$10$qQEyXfcXGxJd/hLjiTUicuikHmUulKg7saQCEkLCj.vYS8JgcmKja', '.......', '...........', NULL, '.................', 6, '2021-07-04, 19:33:43', '127.0.0.1', 0, NULL, 0, 'tg00@gmail.com', '...............', NULL),
 (46, '......', '$2y$10$xgT6iDAM4Ye2C0YTsrvUGeB7kx25RzDkPHIOoU2H5qqMTZ8dwWZUW', '......', '......', NULL, '.................', 6, '2021-07-04, 19:36:31', '127.0.0.1', 8, NULL, 0, 'tg00@gmail.com', '...............', NULL);
 
