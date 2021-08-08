@@ -1,0 +1,123 @@
+.footer {
+  padding: 0;
+  margin: 0;
+  /* background-color: #0011; */
+  /* background-color: #002; */
+  background-color: #03050af7;
+
+  color: #6479a2;
+  /* margin-top: 100px; */
+  padding: 5px 5px;
+  font-size: 20px;
+}
+.footer .tel {
+  font-size: 20px !important;
+  white-space: nowrap;
+}
+.footer i,
+.footer a {
+  color: #6479a2;
+  font-size: 55px !important;
+}
+.footer a:hover {
+  -webkit-box-shadow: 0px 5px 13px 8px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 13px 8px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 13px 8px rgba(34, 60, 80, 0.2);
+
+  -webkit-box-shadow: inset -1px -1px 14px 17px rgb(52 60 80 / 20%);
+}
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  align-items: center;
+}
+.footer__desk {
+  align-items: center;
+}
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__xd {
+  align-items: center;
+  display: flex;
+}
+.footer__block-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__block-img a {
+  display: block;
+}
+
+.footer__block-img_cont {
+  display: block;
+  flex: 0 0 8.666667%;
+  max-width: 16.666667%;
+}
+.footer img {
+  max-width: 100px;
+  height: auto;
+}
+
+@media only screen and (min-device-width: 1440px) {
+  .sidebar {
+    flex: 0 0 26%;
+  }
+  .main__content h1 {
+    font-size: 36px;
+  }
+  .main__content p {
+    font-size: 27px;
+  }
+  .sidebar a {
+    font-size: 30px;
+  }
+  .header__brand a {
+    font-size: 30px;
+  }
+  .main__selector_item-data,
+  .main__selector_item-data {
+    font-size: 26px;
+  }
+  .main__news_item-name,
+  .main__courses_item-name {
+    font-size: 27px;
+    white-space: nowrap;
+  }
+
+  #avatar img {
+    width: 150px;
+  }
+
+  .header__item > i {
+    font-size: 56px;
+  }
+
+  .footer__block {
+    font-size: 36px;
+  }
+  xmp {
+    font-size: 26px;
+  }
+  .course-layout {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-device-width: 807px) {
+  .footer {
+    text-align: center;
+  }
+  .footer__block {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-device-width: 1440px) {
+  .footer__block {
+    font-size: 36px;
+  }
+}
